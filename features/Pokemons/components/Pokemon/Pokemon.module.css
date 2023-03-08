@@ -1,0 +1,41 @@
+.styl {
+  color: black;
+  padding: 2%;
+}
+
+.button {
+  appearance: none;
+  border: none;
+  background: none;
+  font-size: 60px;
+  padding-left: 120px;
+  padding-right: 120px;
+  outline: none;
+  border: 20px solid transparent;
+  color: rgb(24, 53, 184);
+  padding-bottom: 40px;
+  cursor: pointer;
+  background-color: rgba(76, 118, 182, 0.1);
+  border-radius: 20px;
+  transition: all 0.15s;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slugContainer {
+  display: flex;
+}
+
+.homeButton {
+  flex: 1;
+}
+
+.slugContainer::after {
+  flex: 1;
+  content: '';
+}
+
